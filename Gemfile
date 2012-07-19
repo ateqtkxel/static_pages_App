@@ -7,7 +7,7 @@ gem 'bootstrap-sass', '2.0.0'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'pg', '0.12.2'
-gem 'sqlite3'
+
 group :development, :test do
 
   gem 'rspec-rails', '2.10.0'
