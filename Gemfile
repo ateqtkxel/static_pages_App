@@ -8,12 +8,13 @@ gem 'bootstrap-sass', '2.0.0'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'pg', '0.12.2'
+gem 'bcrypt-ruby', '3.0.1'
 
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails', '2.10.0'
 end
-
+gem 'annotate', '~> 2.4.1.beta', group: :development
 group :test do
   gem 'capybara', '1.1.2'
 end
