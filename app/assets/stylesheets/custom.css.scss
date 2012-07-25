@@ -220,5 +220,11 @@ aside {
   .gravatar {
     margin: 1px 1px;
   }
-}
 
+
+}
+.remaining, .countdown {
+  display: inline;
+  color: $grayLight;
+  float: right;
+}

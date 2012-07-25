@@ -64,6 +64,7 @@ GEM
     faker (1.0.1)
       i18n (~> 0.4)
     ffi (1.0.11)
+    haml (3.1.6)
     hike (1.2.1)
     i18n (0.6.0)
     journey (1.0.4)
@@ -161,6 +162,7 @@ DEPENDENCIES
   coffee-rails (~> 3.2.1)
   factory_girl_rails (= 1.4.0)
   faker (= 1.0.1)
+  haml
   jquery-rails
   pg (= 0.12.2)
   rails (= 3.2.4.rc1)
